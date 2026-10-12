@@ -1,0 +1,24 @@
+
+# Python and virtual environments
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Downloaded datasets and caches
+.cache/
+data/indicvoices_kannada/
+data/lexglue_unfair_tos/
+*.parquet
+*.arrow
+data/raw/
+
+# Large generated files
+*.h5
+*.hdf5
+*.pt
+*.pth
